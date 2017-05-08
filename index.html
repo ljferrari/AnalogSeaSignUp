@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Sign up to Analog Sea here free">
+        <title>AnalogSea</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <img class = "logo" src="Img/logo.png">
+            <form class="form-div" action="/signup/" method='post'>
+                <h1> Sign up </h1>
+                <!--<fieldset name="Email-info">-->
+                    <label for="email" required>Email</label>
+                    <input placeholder="email@foobar.com" type="email" name='email' id='email' />
+                    <label for="password" required>Password</label>
+                    <input placeholder="1234passw0rd"type="password" name='password' id='password' />
+                <!--</fieldset>-->
+                <button type='submit'><a class = "submit-link" href="/signup/">Sign up</a></button>
+                <p class = "forgot"><a class="forgot-link" href="/forgot-password/new"> Forgot password? </a></p>
+            </form>
+            <p class=log-in> Already have an account? <a class="log-in-link" href="/login"> Log in</a></p>
+        </div>
+    
+
+
+    </body>
+</html>
